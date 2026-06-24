@@ -9,7 +9,7 @@ Este repositorio contiene el código fuente principal desarrollado para el Traba
 
 ## ⚙️ Descripción del Código
 
-El archivo principal (`modelo_agregador.py`) implementa un modelo de Programación Lineal Entera Mixta (MILP) que simula el comportamiento de un Agregador Independiente gestionando un clúster de Recursos Energéticos Distribuidos (DERs). 
+El archivo principal (`modelo_agregador.ipynb`) implementa un modelo de Programación Lineal Entera Mixta (MILP) que simula el comportamiento de un Agregador Independiente gestionando un clúster de Recursos Energéticos Distribuidos (DERs). 
 
 El *script* realiza las siguientes operaciones en una única ejecución:
 1. **Ingesta de datos:** Carga de las series temporales normalizadas (demanda, generación y precios de mercado).
@@ -35,7 +35,7 @@ Adicionalmente, el modelo requiere el motor de resolución comercial **Gurobi** 
 ## 🚀 Instrucciones de Uso
 
 1. **Descarga de Datos:** El modelo requiere alimentarse de los datos de mercado y perfiles físicos correspondientes a la jornada de estudio. Estos archivos `.csv` se encuentran alojados de forma independiente en el repositorio del **Apéndice A**.
-2. **Ubicación de Archivos:** Descargue los archivos `.csv` con sufijo `_Limpios` y colóquelos en el mismo directorio raíz donde se encuentre el *script* `modelo_agregador.py`.
+2. **Ubicación de Archivos:** Descargue los archivos `.csv` con sufijo `_Limpios` y colóquelos en el mismo directorio raíz donde se encuentre el *script* `modelo_agregador.ipynb`.
 3. **Ejecución:** Lance el *script* desde su terminal o IDE preferido:
 ```bash
-   python modelo_agregador.py
+   python modelo_agregador.ipynb
